@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anomaly Detection App</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <h1>Anomaly Detection App</h1>
+    <div class="container">
+        <div class="single-upload">
+            <h2>Predict Single Image</h2>
+            <input type="file" id="singleFileInput" accept="image/*">
+            <button onclick="predictSingle()">Predict</button>
+            <div id="singleResult"></div>
+        </div>
+
+        <div class="multiple-upload">
+            <h2>Predict Multiple Images</h2>
+            <input type="file" id="multipleFilesInput" accept="image/*" multiple>
+            <button onclick="predictMultiple()">Predict Multiple</button>
+            <div id="multipleResults"></div>
+        </div>
+    </div>
+
+    <script src="../static/js/script.js"></script>
+</body>
+</html>
