@@ -1,4 +1,4 @@
-Dưới đây là mô tả chi tiết cho toàn bộ dự án phát hiện bất thường trên sản phẩm trong sản xuất. Dự án bao gồm hai phần chính: xây dựng mô hình AI và phát triển ứng dụng web để triển khai mô hình này.
+## Anomaly Detection App
 
 ### 1. Xây dựng mô hình AI
 
@@ -40,7 +40,7 @@ Mô hình sử dụng là `DeepLabV3+`, một kiến trúc phân đoạn ảnh m
 - Ảnh kết quả sẽ hiển thị với các vùng phát hiện bất thường được tô màu đỏ.
 
 #### Triển khai ứng dụng
-- Ứng dụng được triển khai trên máy chủ cục bộ (`localhost:8000`) và có thể mở rộng triển khai trên các nền tảng như `Heroku`, `AWS`, hoặc `Azure`.
+- Ứng dụng được triển khai trên máy chủ cục bộ (`localhost:8000`).
 
 ### Hướng dẫn cài đặt và chạy thử
 
@@ -50,5 +50,3 @@ Mô hình sử dụng là `DeepLabV3+`, một kiến trúc phân đoạn ảnh m
 2. **Chạy ứng dụng**
    - Chạy lệnh `uvicorn main:app --reload` để khởi động server.
    - Mở trình duyệt và truy cập `http://localhost:8000` để sử dụng ứng dụng.
-
-Dự án này sẽ là một giải pháp hiệu quả cho việc kiểm tra chất lượng sản phẩm trong các dây chuyền sản xuất, giúp tiết kiệm chi phí và thời gian.
